@@ -1,0 +1,14 @@
+@import "primeicons/primeicons.css";
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon {
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+a {
+    color: #9d1730;
+}

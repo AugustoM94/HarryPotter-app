@@ -1,0 +1,17 @@
+ <section class="d-flex">
+    <div  *ngFor="let character of characters">
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>{{ character.name }}</mat-card-title>
+          <mat-card-subtitle>{{ character.house }}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image [src]="character.image" alt="Image of {{ character.name }}" />
+        <span>{{ character.species }}</span>
+        <span>{{ character.patronus }}</span>
+        <mat-card-content>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    
+  </section>
